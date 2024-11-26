@@ -1,0 +1,1 @@
+/Users/mac/Documents/work/extra/bridget_recruitment/android/app/build/intermediates/cxx/RelWithDebInfo/5v3dc1n3/obj/x86_64
