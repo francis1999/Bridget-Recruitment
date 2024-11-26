@@ -2,9 +2,9 @@ import {request} from './Network';
 
 export type IProduct = {
   id: number;
-  category: string; // Category name
+  category: string;
   description: string;
-  image: string; // Image URL
+  image: string;
   price: number;
   rating: {
     count: number;
@@ -20,7 +20,6 @@ export const getProducts = async (): Promise<ProductResponse> => {
       method: 'GET',
     });
 
-    // console.log('calling', response);
 
     return response;
   } catch (error) {
@@ -36,7 +35,6 @@ export const getCategories = async () => {
       method: 'GET',
     });
 
-    // console.log('calling', response);
 
     return response;
   } catch (error) {
@@ -54,7 +52,6 @@ export const getOneCategory = async (
       method: 'GET',
     });
 
-    // console.log('calling', response);
 
     return response;
   } catch (error) {
